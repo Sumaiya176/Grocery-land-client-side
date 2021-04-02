@@ -44,8 +44,6 @@ const Login = () => {
         <div className="login-box">
             <h1 className="login">Login</h1>
             <button onClick={handleGoogleLogin} className="google-btn">Continue with Google</button>
-            <h5>{loggedInUser.name}</h5>
-            <h5>{loggedInUser.email}</h5>
         </div>
     );
 };
