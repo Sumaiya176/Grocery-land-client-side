@@ -1,0 +1,21 @@
+.login {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.google-btn {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding:13px 20px;
+    margin-top:20px;
+}
+
+.login-box {
+    text-align: center;
+    border: 1px solid black;
+    width:30%;
+    margin: 10% auto;
+}
