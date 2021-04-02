@@ -1,35 +1,9 @@
 import React, { useEffect } from 'react';
 import { useContext } from 'react';
-//import Header from '../Header/Header';
 import Products from '../Products/Products';
 import { productContext } from '../../App';
 
-// const products = [
-//     {
-//         name: 'rice',
-//         pic: 'image 35.png'
-//     },
-//     {
-//         name: 'Bay leaves',
-//         pic: 'image 33.png'
-//     },
-//     {
-//         name: 'Ruchi Chanachur',
-//         pic: 'image 39.png'
-//     },
-//     {
-//         name: 'Marks Powder Milk',
-//         pic: 'image 32.png'
-//     },
-//     {
-//         name: 'Chips',
-//         pic: 'image 37.png'
-//     },
-//     {
-//         name: 'Onion',
-//         pic: 'image 34.png'
-//     }
-// ]
+
 
 const Home = () => {
 
@@ -45,7 +19,6 @@ const Home = () => {
 
     return (
         <div>
-            {/* <Header></Header> */}
             <div className="row justify-content-center">
                 {
                     products.length === 0 &&

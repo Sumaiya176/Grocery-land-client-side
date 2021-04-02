@@ -10,7 +10,7 @@ const Admin = () => {
             .then(data => {
                 setBookedPd(data)
             })
-    }, [])
+    }, [bookedPd.length])
     return (
         <div>
             <h2>Manage Product</h2>
