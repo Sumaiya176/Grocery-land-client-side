@@ -9,13 +9,14 @@ const Order = () => {
     const [Order, setOrder] = useState([])
     console.log(checkOut)
     
-
+    
     return (
         <div className="ordered-product">
             <img className="img" src={checkOut.imageURL} alt="" />
             <h4>Product name: {checkOut.name}</h4>
             <h6>Weight: {checkOut.weight}</h6>
             <h5>Price: {checkOut.price}</h5>
+            <button className="btn btn-success">Order Now</button>
         </div>
     ); 
 };

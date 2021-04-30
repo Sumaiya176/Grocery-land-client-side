@@ -10,7 +10,7 @@ const CheckOut = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
     const [checkOut, setCheckOut] = useContext(checkOutContext);
     const { id } = useParams()
-    console.log(id);
+    
     useEffect(() => {
         fetch('https://quiet-waters-97893.herokuapp.com/product/' + id)
             .then(res => res.json())
@@ -18,7 +18,6 @@ const CheckOut = () => {
     }, [id])
 
     const { _id } = checkOut;
-    console.log(_id)
     const history = useHistory();
     const handlePlaceOrder = (id) => {
         const newData = {...checkOut,...loggedInUser, date: new Date()}

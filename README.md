@@ -1,6 +1,32 @@
-Website Name: Grocery Land
-
-Features: This is a grocery shop. There has some grocery food items. Anyone can choice their necessary one for checkout and can place order. But before checking out and place order they have to be logged in. Also there has a admin panel where logged in admin can delete any food item. There has a option that anyone can use for adding any product.
+# Grocery Land
 
 
-Live Site Link:  https://grocery-land-6de4c.web.app/
+Live Site:  https://grocery-land-6de4c.web.app/
+
+
+Features: 
+  - An Online grocery shop
+  - Users can place order for products and add any products
+  - Users have to go through authentication with google
+  - Has admin panel 
+  - Admin can delete any product from database
+
+Frontend Technologies: 
+  - HTML 
+  - CSS 
+  - Bootstrap
+  - React-Bootstrap
+  - React.js
+  - React-router
+  - React-hook-form
+  - Firebase-auth
+
+Backend Technologies: 
+  - Node.js
+  - Express
+  - MongoDB
+  - Firebase
+
+  
+
+

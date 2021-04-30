@@ -63,7 +63,6 @@ const AddProduct = () => {
                         <div className="product-box">
                             <div>
                                 <h6>Name</h6>
-                                {/* <input name="Add Product" type="text" placeholder="Product name" /> */}
                                 <input name="name" defaultValue="Product name" ref={register} />
                             </div>
                             <div>
